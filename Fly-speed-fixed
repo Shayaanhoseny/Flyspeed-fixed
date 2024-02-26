@@ -1,0 +1,18 @@
+Loadstring(gameHttpsGet("https://raw.githubusercontent.com/Shayaanhoseny/Fly-flyspeed-fixed/main/Fly-flyspeed%20fixed"))();
+local Window = Library.CreateLib("TITLE", "BloodTheme")
+
+
+--fly/flyspeed!
+
+local Tab1 = windows NewTab("Title")
+local Tab1Section = Tab1:NewSection("made by humbled_fan credits to beacon!")
+
+--
+
+Tab1Section:NewButton("start fly reset to unfly""made by humbled_fan credits to beacon! Tab1Section:NewButton("sub2beacon","change flyspeed to 5",function()
+
+local Flyspeed = 5
+
+game.Player.LocalPlayer.Character.humanold.FlySpeed =5
+
+end)
